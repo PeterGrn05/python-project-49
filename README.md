@@ -15,6 +15,10 @@ make brain-games
 
 make brain-even
 
+make brain-calc
+
+make brain-gcd
+
 
 ### Демонстрация Игр
 
@@ -25,3 +29,11 @@ make brain-even
 ## brain-even
 
 [![asciicast](https://asciinema.org/a/ItYy1PWFkjpm6ixX6X1sEe8pf.svg)](https://asciinema.org/a/ItYy1PWFkjpm6ixX6X1sEe8pf)
+
+## brain-calc
+
+[![asciicast](https://asciinema.org/a/Gc4xTfpIWL939IeFEaJtW8730.svg)](https://asciinema.org/a/Gc4xTfpIWL939IeFEaJtW8730)
+
+## brain-gcd
+
+[![asciicast](https://asciinema.org/a/xm3pfRqcWuf0feGe3FOreCTLs.svg)](https://asciinema.org/a/xm3pfRqcWuf0feGe3FOreCTLs)

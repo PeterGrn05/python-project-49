@@ -6,10 +6,10 @@ from random import randint
 def main():
     print('Welcome to the Brain Games!')
     n = welcome_user()
-    if game_start(n) == 1:
+    if even_game(n) == 1:
         win(n)
 
-def game_start(arg):
+def even_game(arg):
     print('Answer "yes" if the number is even, otherwise answer "no".')
     for _ in range(3):
         number = randint(0, 100)
