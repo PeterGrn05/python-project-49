@@ -4,9 +4,9 @@ from random import randint, choice
 
 def main():
     print('Welcome to the Brain Games!')
-    name = welcome_user()
-    if calc_game(name):
-        print(f'Congratulations, {name}!')
+    n = welcome_user()
+    if calc_game(n) == 1:
+        win(n)
 
 
 def calc_game(name):
@@ -26,6 +26,10 @@ def calc_game(name):
             print(f"Let's try again, {name}!")
             return False
     return True
+
+
+def win(arg):
+    return print(f'Congratulations, {arg}!')
 
 
 if __name__ == '__main__':
