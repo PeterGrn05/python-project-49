@@ -1,6 +1,5 @@
 from brain_games.cli import welcome_user
 from ..games.prime_game import prime_game
-from random import randint
 
 
 def main():
