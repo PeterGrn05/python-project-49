@@ -4,23 +4,22 @@ from random import randint
 def main():
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    if gcd_game(name):
+    if progression_game(name):
         print(f'Congratulations, {name}!')
 
-def gcd(a, b):
-    while b:
-        a, b = b, a % b
-    return a
 
-def gcd_game(name):
-    print('Find the greatest common divisor of given numbers.')
+def progression_game(name):
+    print('What number is missing in the progression?')
     for _ in range(3):
-        ch1, ch2 = randint(1, 100), randint(1, 100)
-        correct = gcd(ch1, ch2)
-        print(f'Question: {ch1} {ch2}')
-        answer = input('Your answer: ').strip()
+        ch1, ch2, sh = randint(0, 10), randint(50, 60), randint(5, 10)
+        numbers = list(range(ch1, ch2, sh))
+        idx = randint(0, len(numbers) - 1)
+        correct = numbers[idx]
+        numbers[idx] = '..'
 
-        if answer == str(correct):
+        print('Question:', *numbers)
+        answer = input('Your answer: ')
+        if answer.strip() == str(correct):
             print('Correct!')
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")

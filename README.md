@@ -19,6 +19,9 @@ make brain-calc
 
 make brain-gcd
 
+make brain-progression
+
+make brain-prime
 
 ### Демонстрация Игр
 
@@ -37,3 +40,11 @@ make brain-gcd
 ## brain-gcd
 
 [![asciicast](https://asciinema.org/a/xm3pfRqcWuf0feGe3FOreCTLs.svg)](https://asciinema.org/a/xm3pfRqcWuf0feGe3FOreCTLs)
+
+## brain-progression
+
+[![asciicast](https://asciinema.org/a/Nh0N4v6sUVpdL140IgtUp23Gl.svg)](https://asciinema.org/a/Nh0N4v6sUVpdL140IgtUp23Gl)
+
+## brain-prime
+
+[![asciicast](https://asciinema.org/a/FGuqUld5FC5hHMJwWWUwBlcIX.svg)](https://asciinema.org/a/FGuqUld5FC5hHMJwWWUwBlcIX)
